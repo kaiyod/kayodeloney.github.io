@@ -1,38 +1,58 @@
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333333;
-position: sticky;
-top: 1%;
-width: 100%;
-}
-
-li {
-float: left;
-}
-
-li a {
-display: block;
-color: PeachPuff;
-text-align: center;
-padding: 25px 70.9px;
-text-decoration: none;
-}
-
-li a:hover {
-background-color: Coral;
-}
-
-.active {
-background-color: LightSalmon;
-}
-
-body{
-  background-color: IndianRed;
-}
-
-marquee{
-  font-family: Garamond, serif;
-}
+    ::-webkit-scrollbar {
+		width: 10px;
+		background-color: #1E2D2F;
+		}
+		
+		::-webkit-scrollbar-thumb {
+		background: #DDF8E8;
+		border-radius: 6px;
+		}
+		
+		ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		}
+		
+		li {
+		float: left;
+		}
+		
+		li a {
+		display: inline;
+		color: #DEB887;
+		text-align: center;
+		padding: 62.51px;
+		background-color: #333333;
+		text-decoration: none;
+		}
+		
+		li a:hover {
+		background-color: #FF7F50;
+		}
+		
+		.active {
+		background-color: #F5DEB3;
+		}
+		
+		body{
+		background-image: linear-gradient(to bottom, #CD5C5C ,#FF7F50);
+		}
+	
+		img{
+		position: -webkit-sticky;
+		position: sticky;
+		}
+		
+		#art{
+		background: url("../assets/butterfly-transformed.png") left center repeat;
+		background-size: 300px;
+		}
+		
+		hr{
+		border: 1px dashed #DEB887;
+		}
